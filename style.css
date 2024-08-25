@@ -21,3 +21,29 @@
   font-size: 24px;
   cursor: pointer;
 }
+
+/*
+Use a Simsimi Workshop API
+*/
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  max-width: 70%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: #030E87;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #910101;
+}
