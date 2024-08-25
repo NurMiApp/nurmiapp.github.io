@@ -47,3 +47,27 @@ Use a Simsimi Workshop API
   align-self: flex-start;
   background-color: #910101;
 }
+/*
+Use a send input
+*/
+.input-container {
+  display: flex;
+  padding: 10px;
+}
+
+#messageInput {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #CCC;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #03DAC5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
